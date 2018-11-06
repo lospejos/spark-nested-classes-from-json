@@ -1,0 +1,8 @@
+{
+  "a_str": "Str",
+  "a_long": 100000,
+  "a_nested": [
+    {"attr_int": 0, "attr_string": "nested_0", "attr_float": 0.0, "attr_timestamp": "2018-01-01T11:00:00.123321+02:00"},
+    {"attr_int": 1, "attr_string": "nested_1", "attr_float": 1.0, "attr_timestamp": "2018-02-02T12:01:01.023321+02:00"}
+  ]
+}
