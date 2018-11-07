@@ -45,8 +45,8 @@ object SparkNestedFromJson extends App {
 //  val nestedDF = ds
     .withColumn("nested", explode($"a_nested"))
     //.withColumn("event_id", $"event_id")
-    .select("nested.*")
-    .as[Nested]
+    .select($"nested.*", $"a_str", $"a_long")
+    //.as[Nested]
 
 
   ds
